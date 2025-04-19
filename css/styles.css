@@ -40,7 +40,8 @@ sup {
   font-size: 10px;
 }
 
-dt {
+dt,
+.text-bold {
   font-weight: bold;
 }
 
@@ -48,10 +49,6 @@ dt {
   margin: 0 auto;
   width: 100%;
   max-width: 1200px;
-}
-
-.text-bold {
-  font-weight: bold;
 }
 
 .sources {
