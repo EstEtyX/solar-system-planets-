@@ -19,7 +19,7 @@ table {
 
 caption {
   font-size: 16px;
-  text-align: center;
+  text-align: end;
 }
 
 th {
@@ -51,7 +51,25 @@ dt,
   max-width: 1200px;
 }
 
+.pharagraf-list > li::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: darkblue;
+  margin: 8px 0;
+}
+
+.pharagraf-list > li:last-child::after {
+  content: none;
+}
+
 .sources {
   display: flex;
   justify-content: flex-end;
 }
+
+/* .mercury-section {
+  font-size: 18px;
+  color: gold;
+  background-image: url(../images/mercury.jpg);
+} */
