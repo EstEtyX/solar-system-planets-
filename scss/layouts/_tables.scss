@@ -1,0 +1,29 @@
+.solar-system {
+  margin: 0 auto;
+  background-color: aqua;
+  border-collapse: collapse;
+  border: 2px solid crimson;
+
+  caption {
+    font-size: 16px;
+    text-align: end;
+    caption-side: bottom;
+  }
+
+  th {
+    border: 2px solid green;
+    padding: 10px;
+  }
+
+  td {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    border: 2px solid green;
+    padding: 10px;
+  }
+
+  dt {
+    font-weight: bold;
+  }
+}

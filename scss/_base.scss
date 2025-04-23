@@ -1,0 +1,15 @@
+body {
+  background-color: gold;
+}
+
+.pharagraf-list > li::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: darkblue;
+  margin: 8px 0;
+}
+
+.pharagraf-list > li:last-child::after {
+  content: none;
+}
